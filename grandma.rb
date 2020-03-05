@@ -11,3 +11,17 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+#INPUTS --> a question to grandma --> String
+
+#OUTPUTS --> a response from grandma --> String
+
+def speak_to_grandma(phrase)
+  answer = "HUH?! SPEAK UP, SONNY!"
+  if phrase == "I LOVE YOU GRANDMA!"
+   return "I LOVE YOU TOO PUMPKIN!"
+  elsif phrase == phrase.upcase
+    return "NO, NOT SINCE 1938!"
+  end
+   return answer
+end
