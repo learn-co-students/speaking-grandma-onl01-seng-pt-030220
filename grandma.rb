@@ -12,16 +12,15 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-phrase === "I LOVE YOU GRANDMA!"
-
-if speak_to_grandma == (phrase)
-  puts "I LOVE YOU TOO PUMPKIN!"
-elsif speak_to_grandma !== (phrase)
-  puts "HUH?! SPEAK UP SONNY!"
-else speak_to_grandma == (phrase.upcase)
-  puts "NO, NOT SINCE 1938!"
-end
-
+def speak_to_grandma(phrase)
+  
+  if phrase == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+    elsif phrase == phrase.upcase
+    puts "NO, NO SINCE 1938!"
+  else
+    puts "HUH?! SPEAK UP SONNY"
+  end
 
 
 
